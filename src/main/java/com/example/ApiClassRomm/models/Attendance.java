@@ -5,7 +5,6 @@ import jakarta.persistence.*;
 import java.util.Date;
 
 @Entity
-
 public class Attendance {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
